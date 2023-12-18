@@ -1,4 +1,5 @@
 import * as React from "react";
+import TodoApp from "./components";
 
 // Style
 import "./index.scss";
@@ -10,7 +11,11 @@ import "./index.scss";
  */
 
 const Task3: React.FunctionComponent = () => {
-  return <div id="task-3">#Code goes here#</div>;
+  return (
+    <div id="task-3">
+      <TodoApp />
+    </div>
+  );
 };
 
 export default Task3;
